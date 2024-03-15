@@ -16,7 +16,7 @@ const Projects = () => {
             <div className='pt-10 pb-20 px-5 sm:px-0'>
                 <SectionTitle title={"Projects"} />
                 <div className="flex py-7 gap-10 sm:flex-col ">
-                    <div className='flex flex-col gap-5  border-l-2 border-green-400 sm:flex-row sm:overflow-x-scroll sm:bg-pink-200 sm:pb-3'>
+                    <div className='flex flex-col gap-5  border-l-2 border-green-400 sm:flex-row sm:overflow-x-scroll   sm:pb-3'>
                         {
                             ProjectsData.map((project, index) => (
                                 <div className='cursor-pointer  ' onClick={() => {
@@ -24,7 +24,7 @@ const Projects = () => {
                                 }} key={index}>
 
 
-                                    <h1 className={` text-xl px-5 ${selecteditemIndex === index ? " font-semibold  border-l-4 border-black -ml-[3px]  py-1 bg-blue-500 text-white" : ""}`}>{project.title}</h1>
+                                    <h1 className={` text-xl px-5 ${selecteditemIndex === index ? " font-semibold  border-l-4  sm:border-r-2 border-r-black border-black -ml-[3px]  py-1 bg-blue-500 text-white" : ""}`}>{project.title}</h1>
                                 </div>
                             ))
                         }

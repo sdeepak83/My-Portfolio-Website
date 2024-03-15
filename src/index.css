@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 
+
 /* width */
 ::-webkit-scrollbar {
     width: 5px;
@@ -17,7 +18,7 @@
 /* Handle */
 ::-webkit-scrollbar-thumb {
 
-    background: gray;
+    background: black;
     border-radius: 10px;
 }
 

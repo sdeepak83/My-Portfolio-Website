@@ -5,7 +5,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Intro = () => {
     return (
-        <div className=' flex justify-between items-center pb-10 pt-36  md:pt-18 md:pb-16 sm:flex-none '>
+        <div className=' flex justify-between items-center pb-10 pt-36  md:pt-18 md:pb-16 sm:flex-none sm:pt-16 '>
             <div className=' w-3/1'>
                 <h5 className=' font-bold  text-2xl  text-third my-5'>Hi, I Am </h5>
 
